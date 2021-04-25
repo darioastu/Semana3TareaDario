@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Semana3TareaDario.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Ingresa un Dato" />
+        <Entry x:Name= "txtDato1"></Entry>
+        <Label Text="Ingrese Otro Dato"/>
+        <Entry x:Name="txtDato2"></Entry>
+        <Label Text="Resultado"/>
+        <Entry x:Name="txtResultado" IsEnabled="True"/>
+        <Button x:Name="btnSuma" Text="Suma" Clicked="btnSuma_Clicked"/>
+        <Button x:Name="btnAbrir" Text=" = Next" Clicked="btnAbrir_Clicked"/>
+
+    </StackLayout>  
+
+</ContentPage>
